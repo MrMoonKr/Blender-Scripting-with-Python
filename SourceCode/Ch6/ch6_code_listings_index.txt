@@ -1,0 +1,29 @@
+Listing 6-1 rename_empty
+Listing 6-2 load_reference_or_background_image
+Listing 6-3 load_image_empty
+Listing 6-4 init_scene_vars
+Listing 6-5 poll_select_mesh_dropdown_filter
+Listing 6-6 reset_gp
+Listing 6-7 BUTTON_OT_reset_gp
+Listing 6-8 BUTTON_OT_draw_with_GP
+Listing 6-9 gp_knife_project
+Listing 6-10 gp_strokes_mesh_selection_check
+Listing 6-11 BUTTON_OT_carve
+Listing 6-12 poll for Carve
+Listing 6-13 BUTTON_OT_inset
+Listing 6-14 BUTTON_OT_draw_grid
+Listing 6-15 select_poles
+Listing 6-16 get_angle_between_edges
+Listing 6-17 get_angle_between_vectors
+Listing 6-18 select_face_corners_less_than_angle
+Listing 6-19 SCULPTRETOPO_PT_ToolShelfPanel
+Listing 6-20 del_scene_vars
+
+
+
+
+
+
+
+
+
