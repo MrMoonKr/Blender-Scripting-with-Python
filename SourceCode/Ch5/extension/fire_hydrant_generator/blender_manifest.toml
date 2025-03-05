@@ -1,0 +1,23 @@
+schema_version = "1.0.0"
+
+id = "fire_hydrant_generator"
+version = "2.0.0"
+name = "Fire Hydrant Generator"
+tagline = "Ch5 Examples of Blender Scripting with Python by Isabel Lupiani"
+maintainer = "Isabel Lupiani <a@b.com>"
+type = "add-on"
+
+tags = ["Modeling", "Mesh"]
+
+blender_version_min = "4.2.0"
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX: prefix)
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+
+copyright = [
+  "2018-2024 Isabel Lupiani",
+  "2024 Apress",
+]
