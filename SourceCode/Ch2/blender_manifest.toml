@@ -1,0 +1,20 @@
+schema_version = "1.0.0"
+
+id = "sample_ui_panel"
+version = "2.0.0"
+name = "Sample UI Panel in the Properties shelf > Tool tab"
+tagline = "This add-on creates a sample UI Panel in Properties > Tool"
+maintainer = "Isabel Lupiani <a@b.com>"
+type = "add-on"
+
+tags = ["3D View"]
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+
+copyright = [
+  "2018-2024 Isabel Lupiani",
+  "2024 Apress",
+]
