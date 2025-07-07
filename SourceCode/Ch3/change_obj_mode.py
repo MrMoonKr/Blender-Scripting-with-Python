@@ -42,7 +42,22 @@ def change_obj_to_mode(obj_name: str, obj_type, mode_to_set):
         if obj.type == obj_type:
             bpy.context.view_layer.objects.active = obj
             bpy.ops.object.mode_set(mode=mode_to_set)
-        
+
+
+# 블렌더 스크립트 창에서 실행시에는 __name__ 이 "__main__" 로 설정됩니다.
+# VS Code의 명령창(Ctrl+Shift+P)에서 'Blender: Run Script'로 실행시에는 __name__ 이 "<run_path>" 로 설정됩니다.
+# # 이 두 경우에 따라 실행할 함수를 다르게 설정합니다.
+
+
 if __name__ == "__main__":
+    '''
+        블렌더 스크립트 창에서 실행시에는 __name__ 이 "__main__" 로 설정됩니다.
+    '''
+    change_obj_to_edit_mode('Cube')
+    #change_obj_to_mode('Cube', 'MESH', 'EDIT')
+elif __name__ == "<run_path>":
+    '''
+        VS Code의 명령창(Ctrl+Shift+P)에서 'Blender: Run Script'로 실행시에는 __name__ 이 "<run_path>" 로 설정됩니다.
+    '''
     change_obj_to_edit_mode('Cube')
     #change_obj_to_mode('Cube', 'MESH', 'EDIT')

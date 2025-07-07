@@ -1,8 +1,11 @@
 # Blender Scripting with Python  
 
 WIP ( Work in Progress ).  
-
 블렌더를 위한 애드온 개발을 위해서 생성 하였습니다.  
+
+- VS Code의 명령창(Ctrl+Shift+P)에서 'Blender: Run Script'로 실행시에는 __name__ 이 "<run_path>" 로 설정되어 코드 수정 필요 ...  
+- ...  
+
 
 
 ## 책 관련 링크
